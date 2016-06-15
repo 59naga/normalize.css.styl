@@ -1,7 +1,7 @@
 {
   "name": "normalize.css.styl",
   "description": "add normalize() mixin using normalize.css/normalize.css",
-  "version": "4.1.1",
+  "version": "0.0.0",
   "files": [
     "normalize.css.styl",
     "postinstall.js",
