@@ -11,3 +11,4 @@ lib
 npm-debug.log
 
 example.*
+normalize.styl
