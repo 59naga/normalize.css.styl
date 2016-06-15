@@ -1,0 +1,48 @@
+{
+  "name": "normalize.css.styl",
+  "description": "add normalize() mixin using normalize.css/normalize.css",
+  "version": "4.1.1",
+  "files": [
+    "normalize.css.styl",
+    "postinstall.js",
+    "index.js"
+  ],
+  "dependencies": {
+    "normalize.css": "4.1.1"
+  },
+  "scripts": {
+    "postinstall": "node postinstall.js",
+    "start": "abby test --watch \"index.*,*.styl,test.js\"",
+    "test": "ava",
+    "lint": "xo",
+    "postversion": "git push --follow-tags && conventional-github-releaser -p atom -r 0"
+  },
+  "xo": {
+    "space": 2,
+    "semicolon": false
+  },
+  "devDependencies": {
+    "abigail": "^1.9.0",
+    "ava": "^0.15.2",
+    "conventional-github-releaser": "^1.1.2",
+    "escape-regexp": "^0.0.1",
+    "stylus": "^0.54.5",
+    "xo": "^0.16.0"
+  },
+  "keywords": [
+    "stylus",
+    "stylus-plugin",
+    "mixin",
+    "normalize.css"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/59naga/normalize.css.styl.git"
+  },
+  "author": "59naga <i59naga@icloud.com> (http://berabou.me/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/59naga/normalize.css.styl/issues"
+  },
+  "homepage": "https://github.com/59naga/normalize.css.styl#readme"
+}
