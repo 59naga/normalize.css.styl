@@ -4,7 +4,7 @@ import escapeRegexp from 'escape-regexp'
 
 import normalize from './'
 
-const render = (str) => {
+const render = str => {
   let css
   stylus(str)
   .use(normalize())
