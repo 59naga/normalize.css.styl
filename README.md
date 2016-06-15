@@ -13,7 +13,7 @@
   </a>
 </p>
 
-add `normalize()` mixin using [normalize.css/normalize.css](https://github.com/10up/normalize.css#readme)
+add `normalize()` mixin using [normalize.css/normalize.css](https://github.com/necolas/normalize.css#readme)
 
 Installation
 ---
