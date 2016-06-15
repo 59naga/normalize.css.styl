@@ -8,7 +8,7 @@
     "index.js"
   ],
   "dependencies": {
-    "normalize.css": "4.1.1"
+    "normalize.css": "*"
   },
   "scripts": {
     "postinstall": "node postinstall.js",
